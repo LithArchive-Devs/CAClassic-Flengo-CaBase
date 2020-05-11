@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Flengo Base", "CaBase\CaBase.vcxproj", "{AF3F137A-B286-4B79-8821-56E73BBF42E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Itanium = Debug|Itanium
+		Debug|Win32 = Debug|Win32
+		Release|Itanium = Release|Itanium
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF3F137A-B286-4B79-8821-56E73BBF42E2}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{AF3F137A-B286-4B79-8821-56E73BBF42E2}.Debug|Itanium.Build.0 = Debug|Itanium
+		{AF3F137A-B286-4B79-8821-56E73BBF42E2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AF3F137A-B286-4B79-8821-56E73BBF42E2}.Debug|Win32.Build.0 = Debug|Win32
+		{AF3F137A-B286-4B79-8821-56E73BBF42E2}.Release|Itanium.ActiveCfg = Release|Itanium
+		{AF3F137A-B286-4B79-8821-56E73BBF42E2}.Release|Itanium.Build.0 = Release|Itanium
+		{AF3F137A-B286-4B79-8821-56E73BBF42E2}.Release|Win32.ActiveCfg = Release|Win32
+		{AF3F137A-B286-4B79-8821-56E73BBF42E2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

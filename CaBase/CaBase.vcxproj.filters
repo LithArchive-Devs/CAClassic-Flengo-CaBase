@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{17edd18e-2859-4edc-8002-da5b5cb9e410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{00dc87b2-8c08-40da-96d6-e0c647a656af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SendToServer">
+      <UniqueIdentifier>{eac08d5e-e4a9-4548-b25f-323a4cf66fbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Detours">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="CDetour.h">
+      <Filter>Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="Files.h">
+      <Filter>Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="Crasher.h">
+      <Filter>SendToServer</Filter>
+    </ClInclude>
+    <ClInclude Include="LTClient.h">
+      <Filter>SendToServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>SendToServer</Filter>
+    </ClInclude>
+    <ClInclude Include="SafePtr.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="HackSprite.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="HackFont.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ADE32.h">
+      <Filter>Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="Msgid.h">
+      <Filter>SendToServer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Base.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CDetour.cpp">
+      <Filter>Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="HackSprite.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="HackFont.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ADE32.cpp">
+      <Filter>Detours</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
